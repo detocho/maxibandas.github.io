@@ -1,0 +1,293 @@
+﻿html{
+      margin:0px;
+      height:100%;
+    }
+
+body{ font-family:Arial; font-size:12px; padding:0px;
+  margin:0 0 0 0; min-width:1000px;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
+  padding:0px;
+  margin:0px;
+}
+
+
+/****************************** estilos para el header ************************************************************************/
+#headerMainContainer{   height:37px;  
+background-color:#27709b;
+  background-image:-webkit-linear-gradient(top, #27709b, #24688f);
+
+min-width:1000px; margin-bottom: 15px;
+                      /*background-image:url(themes/ImagesAdmin/backgroundHeader.png); background-repeat:repeat-x;*/
+  background-position:top;   }
+ #headerLogo{border:0px solid black; height:35px; width:210px; float:left; margin-top:1px;  
+  background-image:url(themes/imagesAdmin/logoHeader.png); background-repeat:no-repeat;
+  background-position:top;}
+  
+#headerLinks{ height:25px;  margin-right:20px;  float:right; }
+#headerLinks ul { border:0px solid #0D5E99; width:auto; height:35px; }
+#headerLinks li { border-left:1px solid #0D5E99;  list-style:none; float:left; margin-left:10px; height:25px;
+ padding-left:5px; }
+#headerLinks a { font-family:Arial; font-size:10px; text-decoration:none; color:#FFF;  font-size:15px; }
+#headerLinks a:hover { text-decoration:underline;}
+
+#headerName { border-left:1px solid #0D5E99; height:25px; min-width:500px; float:left; padding-top:10px; padding-left:10px;}
+#headerName span{ font-family:Arial; font-size:16px; font-weight:bold; color:#FFF; margin-left:5px; margin-top:6px;}
+#headerSalirContainer { border:0px solid red; margin:0 auto 0 auto; width:1000px;  height:25px; }
+#headerSalirContainer #headerSalirImagen { border:0px solid blue; width:940px; height:25px; float:left;
+                                           background-image:url(themes/imagesAdmin/headerSalir.png); background-repeat:no-repeat;
+                                           background-position:right;
+                                            }
+#headerSalirContainer #ligaSalir { border:0px solid green; width:50px; height:25px; float:left;}
+#headerSalirContainer #ligaSalir a { padding-left:10px; font-family:Arial;  font-size:15px; font-weight:bold; text-decoration:none; color:#0B4D7D;}
+#headerSalirContainer #ligaSalir a:hover{ text-decoration:underline;}
+
+/****************************** estilos para el cuerpo ************************************************************************/
+#bodyContainer{ min-width:1000px;  margin-left:5px; margin-right:5px; overflow: hidden; height: 100%;}
+/*
+#tabs { border:0px solid red; height:25px; margin-top:12px; border-left:1px solid #999;}
+#tabs li{float:left;list-style:none;font-family:Tahoma;font-size:11px;font-weight:bold;color:#333333;
+         }
+#tabs li a{font-family:Tahoma;font-size:11px;font-weight:bold;color:#333333;text-decoration:none;padding-left:15px;
+            padding-right:15px;padding-top:10px;padding-bottom:2px; border-bottom:1px solid #999; border-right:1px solid #999; border-top:1px solid #999;
+            background-image:url(themes/ImagesAdmin/backgroundTabs.png); background-repeat:repeat-x;
+            background-position:top
+            }
+#tabs .active{background-color:#FFF;color:#333; border-bottom:0px; background-image:none; background-color:#FFF;}
+#tabs li a:hover{background-color:#333333;color:#FFFFFF;}
+#tabs ul{margin:0 0 0 0;padding-top:10px;	padding-left:0px; }*/
+
+.espacioAdmin{  border-bottom:1px solid #999; float:right;  width:551px; height:25px; margin-top:-10px;}
+#containerTabs{ border:1px solid #999; border-top:0px; padding-top:10px;}
+
+/******************************* estilos para el submenu*********************************/
+.adminSubMenuList{ border:0px solid red; width:145px;}
+.adminSubMenuList a div { border:0px solid green; width:130px; height:21px; margin-top:3px;
+                          font-family:Arial; font-size:12px; color:#0B4D7D;
+                          }
+.adminSubMenuList a div:hover  { border:0px solid blue; width:130px; height:21px; margin-top:3px;
+                                             color:#FFF; background-color:#0B4D7D; font-weight:bold;
+                                             }                        
+.adminSubMenuList a .adminSubMenuItemActivo{ border:0px solid blue; width:130px; height:21px; margin-top:3px;
+                                             color:#FFF; background-color:#0B4D7D; font-weight:bold;
+                                             }
+
+/******************************* estilos para el container*********************************/                                             
+.adminContainer{ border-left:1px dotted #999;}
+.adminContainerTitleSeccion{ font-family:Verdana; font-size:15px; color:#0B4D7D; font-weight:bold;
+                             border-bottom:1px solid #CCC; padding-bottom:3px; width:800px;
+                             padding-left:10px; margin-left:15px;
+                             }
+.adminContainerOption{ margin-top:2px; height:40px;}
+.adminContainerOption li{float:left;list-style:none;font-family:Arial;font-size:11px;font-weight:bold;color:#69A74E;}
+.adminContainerOption li a{ text-decoration:none; font-family:Arial;font-size:11px;font-weight:bold;color:#69A74E; margin-left:7px;}
+.adminContainerOption li a:hover{ text-decoration:underline;}
+.adminContainerOption ul{margin:0 0 0 4px; padding-top:2px;	padding-left:4px; }
+.adminContainerList{ border:0px solid red; width:100%; margin-left:10px;}
+.adminContainerList table { width:100%;}
+.adminContainerList .identificator { border-left:1px solid #CCC; border-top:1px solid #CCC; width:130px; padding-left:3px; text-align:left; }
+.adminContainerList .identificator span { font-family:Tahoma; font-size:12px; color:#69A74E; font-weight:bold; }
+.adminContainerList .pic { border-left:1px solid #CCC; border-top:1px solid #CCC; width:110px; padding:2px auto 2px auto;} 
+.adminContainerList .data{ border-left:1px solid #CCC; border-top:1px solid #CCC; width:115px; padding-left:5px; font-size:11px;}
+.adminContainerList .data b { font-family:Tahoma; font-size:12px;  font-weight:bold; }
+.adminContainerList .data span { font-family:Tahoma; font-size:12px; color:#69A74E; font-weight:bold; }
+.adminContainerList .description { border-left:1px solid #CCC; border-top:1px solid #CCC; font-size:11px; width:295px; padding:15px 3px 3px 3px; } 
+.adminContainerList .options{ border-left:1px solid #CCC; border-top:1px solid #CCC; border-right:1px solid #CCC; padding:5px 3px 3px 3px; height:130px;}
+.adminContainerList .options a{ font-family:Arial; font-size:12px; color:#0B4D7D; text-decoration:none;}
+.adminContainerList .options a:hover{text-decoration:underline;}
+.adminContainerList .migas { font-family:Arial; font-size:12px; color:#0B4D7D; padding:3px;}
+.adminContainerList .migas span { font-size:15px;}
+.adminContainerList .migas a { font-family:Arial; font-size:12px; color:#0B4D7D; text-decoration:none; margin-left:3px;}
+.adminContainerList .migas a:hover{ text-decoration:underline;}
+.adminContainerList .migasBattom { border-top:1px solid #CCC; font-family:Arial; font-size:12px; color:#0B4D7D; padding:3px;}
+.adminContainerList .migasBattom span { font-size:15px;}
+.adminContainerList .migasBattom a { font-family:Arial; font-size:12px; color:#0B4D7D; text-decoration:none; margin-left:3px;}
+.adminContainerList .migasBattom a:hover{ text-decoration:underline;}
+/************** Adicional para la parte de admin de mensajes ******************/
+.adminContainerList .dataMensaje{ border-left:1px solid #CCC; border-top:1px solid #CCC; width:430px; padding-left:5px; font-size:11px;}
+.adminContainerList .dataMensaje b { font-family:Tahoma; font-size:12px;  font-weight:bold; }
+.adminContainerList .dataMensaje span { font-family:Tahoma; font-size:12px; color:#69A74E; font-weight:bold; }
+.adminContainerList .statusMensaje{border-left:1px solid #CCC; border-top:1px solid #CCC; font-size:11px; width:120px; padding-top:10px; text-align:center; }
+/************** Adicional para el perfil del usuario ******************************************/
+.adminContainerList .picPhoto { border:0px solid red; width:127px;  padding:2px; margin-left:30px; margin-top:15px;}
+.adminContainerList #previewData{ font-family:Arial; font-size:13px; color:#000; width:430px; border: 0px solid red; margin-top:15px; height:400px;}
+.adminContainerList #previewData .subtitle{ margin-left:0px; font-family:Tahoma; font-size:15px; color:#0B4D7D; font-weight:bold;  border-bottom:1px dotted #333; margin-top:7px; margin-bottom:7px;}
+.adminContainerList #previewData div { margin-left:10px;}
+.adminContainerList .caja_registro{width:230px;height:22px;font-family:Arial;font-size:12px;font-weight:bold;}
+.adminContainerList .caja_seleccion{margin-right:10px;height:25px;font-family:Arial;font-size:12px;font-weight:bold;}
+.adminContainerList .telefonos{padding-right:3px;height:22px;width:50px;font-family:Arial;font-size:12px;font-weight:bold;}
+.adminContainerList .nota { font-family:Arial; font-size:9px; color:#666; padding-left:50px;}
+.adminContainerList .buttonActionRegisterButton {width:192px;height:49px;font-family:Arial;font-size:20px;font-weight:bold;
+                                                 color:#FFFFFF;background-image:url(../Images/BackgroundButtonRegister.png);
+                                                 background-repeat :repeat-x; margin-left:80px; margin-top:5px;}
+
+
+
+/****************************** estilos para el footer ************************************************************************/
+
+#footerContainer{ min-width:1000px; height:30px;
+                 background-image:url(themes/imagesAdmin/logoFooter.png); background-repeat:no-repeat;
+            background-position:right;
+        
+        
+                 }
+#footerContainer span { font-family:Arial; font-size:13px; font-weight:bold; color:#666; margin-left:3px;}
+#footerContainer a{ font-family:Arial; font-size:11px; color:#666; text-decoration:none;}
+#footerContainer a:hover{ text-decoration:underline;}
+
+/******************************** estilos para el submenu *************************************************/
+#bodySubmenu{border-left:0px solid #999; width:1000px; height:30px; }
+/*
+#bodySubmenu li{float:left;list-style:none;font-family:Verdana;font-size:15px;font-weight:bold;color:#CCC; }
+#bodySubmenu li a{font-family:Verdana;font-size:13px;font-weight:bold;color:#333333;	text-decoration:none;padding-left:15px;padding-right:15px;
+	padding-top:10px;padding-bottom:2px;border-right:1px solid #999;border-top:1px solid #999;border-bottom:1px solid #999;
+	background-image:url(themes/ImagesAdmin/backgroundTabs.png); background-repeat:repeat-x;
+}
+#bodySubmenu .ui-state-active{background-color:#FFF;color:#333; border-bottom:1px solid #FFF; background-image:none; }
+#bodySubmenu li a:hover{background-color:#333333; background-image:none; color:#FFF;}
+#bodySubmenu ul{margin:0 0 0 0px;padding-top:12px;	padding-left:0px; }*/
+
+/******************************** estilos para los tabs tipo google  ******************************************/
+UL.mytabs {
+	position: relative;
+	z-index: 2;
+}
+UL.mytabs, UL.mytabs LI {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+UL.mytabs LI { padding: 0 5px; }
+UL.mytabs LI A {
+	float: left;
+	padding: 7px;
+	border: 1px solid #CCCCCC;
+	border-bottom: 1px solid #E0E0E0;
+	background: #F0F0F0;
+	text-decoration: none;
+	color: #333333;
+	height: 22px;
+}
+UL.mytabs LI A:HOVER, UL.mytabs LI.ui-state-active A {
+	background: #FFFFFF;	
+}
+UL.mytabs LI.ui-state-active A {
+	font-weight: bold;
+	font-size: 14px;
+	border-bottom: 1px solid #FFFFFF;
+}
+.mytabs-container {
+	position: relative;
+	z-index: 1;
+	clear: both;
+	border: 1px solid #E0E0E0;
+	/*padding: 10px;*/
+	top: -1px;
+  overflow: hidden;
+  height: 100%;
+}
+
+
+
+/*** ******************************************** Estilos para los tabs verticales *************************+*****/
+
+
+
+
+/******************************** estilos para el contenido de cada tab del submenu ***********************/
+/*#bodyContenido{ border:1px solid #999;  width:1000px; height:auto;}
+#bodyContenido table { padding-top:10px;}*/ 
+
+#tabs{   width:auto; height:80%;}
+#tabs-1{ border:1px solid #E0E0E0; width:auto; }
+#tabs-1 table { padding-top:10px;} 
+
+#tabs-ver-1{ border:1px solid #E0E0E0;  width:auto; height:100%;}
+#tabs-ver-1 table { padding-top:10px;} 
+
+#menuHorizontal{border:1px solid #CCC; width:170px; height:100%; 
+  float:left; background-color:#F0F0F0; margin-top: 10px;  }
+#menuHorizontal ul{margin:0px;padding-top:12px; padding-bottom:10px;	padding-left:0px; border:0px solid red; height: 90%; }
+#menuHorizontal li{list-style:none;font-family:Arial;font-size:15px;color:#666; height:30px;
+                   border-top:1px solid #CCC; }
+
+#menuHorizontal li a{font-family:Arial;font-size:15px;color:#666;height:30px;
+                     text-decoration:none;  
+}
+#menuHorizontal li div{font-family:Arial;font-size:15px;color:#666;height:30px;
+                     text-decoration:none; 
+}
+#menuHorizontal .linkSubmenu:hover{background-color:#FFF;  color:#666; text-decoration:none; width:auto;  }
+#menuHorizontal .active div{background-color:#FFF;color:#666; font-weight:bold;  }
+#menuHorizontal li a:hover{background-color:#FFF; background-image:none; color:#666; text-decoration:none; width:auto; }
+
+
+
+
+
+#contenidoGeneral{ float:left; margin: 5px;
+  border-left:1px dotted #CCC; 
+  min-width:815px; height:96%; padding-top:15px;  overflow-y:scroll;}
+#contenidoGeneral #titulo{ border-bottom:1px solid #CCC; padding-left:10px; font-family: Arial; font-size:15px; font-weight:bold; color:#0B4D7D; width:800px; }
+#contenidoGeneral #opciones{ padding-top:15px;}
+#contenidoGeneral #opciones a{ margin-left:10px; font-family:Arial; font-size:12px; color:#69A74E; text-decoration:none;}
+#contenidoGeneral #opciones a:hover{ margin-left:10px; font-family:Arial; font-size:12px; color:#69A74E; text-decoration:underline;}
+#contenidoGeneral #data{ padding-left:10px; padding-top:10px;}
+#data .paginado{ border:0px solid red; margin-top:3px; margin-bottom:1px; font-family:Arial; font-size:12px; color:#0B4D7D; text-align:right;}
+#contenidoGeneral #data table{ margin-top:0px; margin-bottom:5px;}
+#contenidoGeneral #data td { border-top:1px solid #CCC;  padding-left:2px;}
+#data .editarDatos td { border-top:0px solid red !important;}
+#data .renglon { border-top:1px solid #red; }
+#data .identificador{ font-family: Arial; font-size:12px; color:#69A74E; font-weight:bold; text-align:center;}
+#data .tipAnuncio { font-family: Arial; font-size:10px; color:#000; text-align:center; font-weight:bold; } 
+#data .fecha{ font-family: Arial; font-size:10px; color:#000; text-align:center; }
+#data .foto{ width:102px; padding-left:1px; padding-right:1px;}
+#data .aparato { font-family: Arial; font-size:12px; color:#000; text-align:left; font-weight:bold; width:117px; padding-left:3px; }
+#data .marca{ font-family: Arial; font-size:12px; color:#000; text-align:left; padding-left:3px; }
+#data .modelo{ font-family: Arial; font-size:12px; color:#000; text-align:left; padding-left:3px; }
+#data .estado{ font-family: Arial; font-size:12px; color:#000; text-align:left; padding-left:3px; font-style:italic; }
+#data .precio{ font-family: Arial; font-size:14px;  color:#69A74E; text-align:left; font-weight:bold; padding-left:3px; padding-top:3px; }
+#data .descripcion{ font-family: Arial; font-size:12px; color:#000; text-align:left; padding-left:3px; padding-top:3px; padding-bottom:3px; width:290px; } 
+#data .options { width:150px; text-align:left; padding-left:10px;}
+#data .options a { font-family: Arial; font-size:12px; color:#0B4D7D; text-align:left; padding-left:3px; padding-top:3px; padding-bottom:3px;  text-decoration:none; } 
+#data .options a:hover{ text-decoration:underline; }
+#data .paginado a{ text-decoration:none; font-family: Arial; font-size:12px; color:#0B4D7D;}
+#data .paginado a:hover{ text-decoration:underline;}
+
+#data .fechaEstado{ width:70px; padding-left:15px;}
+#data .contacto{ width:400px;}
+#data .estadoMensaje{ font-weight:bold;}
+
+#data .formulario { width:500px; border:0px solid red;} 
+
+.formulario .tituloMensaje{ border:0px solid blue; font-size:14px; padding-left:15px; padding-top:5px;}
+.formulario .tituloMensaje span{ font-family: Arial; font-size:14px; color:#69A74E; font-weight:bold; margin-right:10px; }
+.formulario .dataCliente { padding-left:15px; padding-top:5px;}
+.formulario .mensajeCliente { padding-left:15px; padding-top:10px;}
+.formulario .contenidoMensajeCliente { padding-top:5px; text-align:justify;}
+.formulario .respuestaMensaje { padding-left:15px; padding-top:10px;}
+.formulario .acciones { padding-left:15px; padding-top:10px;}
+.formulario .acciones .enviarMensaje { float:right; border:1px solid #CCC; padding-left:15px; width:130px; height:25px; margin-bottom:20px; }
+
+
+
+#data .perfil{border:0px solid #CCC; width:600px; height:370px; padding-top:15px;}
+.perfil #fotoPerfil{ float:left; border:1px solid #CCC; width:144px; height:104px; padding:2px 2px 2px 2px;}
+.perfil #datos{ float:left; border:0px solid green; margin-left:15px; width:400px;}
+#datos .perfilSubtitle{ border-bottom:1px solid #CCC; font-family: Arial; font-size:15px; color:#0B4D7D; font-weight:bold;
+                         margin-bottom:5px; margin-top:3px; }
+#datos .conteinerItem{ padding-left:25px; padding-bottom:10px;}
+#datos .perfilItems { padding-top:5px; padding-bottom:10px;}
+#datos .perfilItems div { display:inline;}
+.perfilItems .itemName{ width:100px;  border:0px solid red;}
+.perfilItems .itemValor { font-weight:bold;}
+
+.editPhoneUno { border:0px solid red; height:30px; margin-top:10px;}
+.editPhoneDos {  border:0px solid red; height:30px; margin-left: 56px; margin-top:10px;}
+.PerfilNota{ font-family: Arial; font-size:9px; color:#666; border:1px solid #EE0000; background-color:#FEF9D3;}
+
+
+                                   
+

@@ -1,0 +1,33 @@
+﻿
+
+
+
+.ui-tabs-panel 
+{
+    position: relative;
+	z-index: 1;
+	clear: both;
+	border: 1px solid #E0E0E0;
+	/*padding: 10px;*/
+	top: -1px;
+}
+
+.ui-tabs .ui-tabs-hide {
+    display: none !important;
+}
+
+/************************************* PARA LOS TABS-VERTICALES *********************************************/
+
+.ui-tabs-ver-panel 
+{
+    position: relative;
+	z-index: 1;
+	clear: both;
+	border: 1px solid #E0E0E0;
+	/*padding: 10px;*/
+	top: -1px;
+}
+
+.ui-tabs-ver .ui-tabs-ver-hide {
+    display: none !important;
+}
